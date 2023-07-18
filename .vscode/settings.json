@@ -1,0 +1,33 @@
+{
+    "tailwindCSS.emmetCompletions": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.snippetSuggestions": "top",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "fullsend",
+            "database": "fullsenddb",
+            "username": "root",
+            "password": "1234",
+        },
+    ],
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "emmet.preferences": {
+
+    },
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.useInlineCompletions": false,
+    "editor.tabCompletion": "onlySnippets",
+}
