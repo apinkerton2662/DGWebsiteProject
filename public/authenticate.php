@@ -2,8 +2,8 @@
 // begin logged in session 
 session_start();
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '1234';
+$DATABASE_USER = '$$$$$'; //replace with username or pointer
+$DATABASE_PASS = '$$$$$';
 $DATABASE_NAME = 'fullsenddb';
 // Connect to database
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
